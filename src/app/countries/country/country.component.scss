@@ -20,12 +20,11 @@ mat-card {
   //set icon size and place it to the right
   mat-icon {
     font-size: 3em;
-    margin-left: 160px; 
   }
   //set mat-card-actions to flexbox
   mat-card-actions {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
   }
   
   
