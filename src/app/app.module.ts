@@ -6,6 +6,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { CountriesModule } from './countries/countries.module';
 import { AppComponent } from './app.component';
+import { NotFoundModule } from './countries/not-found/not-found-module';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CountriesModule
+    CountriesModule,
+    NotFoundModule
   ],
   providers: [],
   bootstrap: [AppComponent]

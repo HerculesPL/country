@@ -17,6 +17,15 @@ export class CountryComponent {
   
   selectedCountry: string;
 
+  icon = "star_outline"
+
+  //function to receive emit output from favorite.component
+  recieveIcon($event) {
+    
+    this.icon = $event;
+
+  }
+
   constructor (
     private bottomSheet: MatBottomSheet
       ) {}

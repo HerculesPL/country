@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { CountryComponent } from './country.component';
 import { CountryDetailModule } from '../country-detail/country-detail.module';
 import { CountryDetailComponent } from '../country-detail/country-detail.component';
+import { FavoriteComponent } from './favorite/favorite.component';
 
 //angular material imports
 import { MatCardModule } from '@angular/material/card';
@@ -19,7 +20,8 @@ import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
     declarations: [
-        CountryComponent
+        CountryComponent,
+        FavoriteComponent
     ],
     imports: [
         CommonModule,
