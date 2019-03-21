@@ -3,7 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { CountryListComponent } from './countries/country-list/country-list.component';
 import { CountryListResolver } from './countries/country-list/country-list-resolver';
-import { NotFoundComponent } from './not-found/not-found/not-found.component';
+import { NotFoundComponent } from './countries/not-found/not-found.component';
+
+
 
 const routes: Routes = [         
   { 
