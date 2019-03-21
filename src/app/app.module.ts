@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CountryComponent } from './countries/country/country.component';
+import { CountriesComponent } from './countries/country-list/countries/countries.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CountryComponent
+    CountryComponent,
+    CountriesComponent
   ],
   imports: [
     BrowserModule,
